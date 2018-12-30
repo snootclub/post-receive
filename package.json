@@ -1,31 +1,31 @@
 {
-  "name": "@snootclub/post-receive",
-  "version": "0.0.0",
-  "description": "a post receive hook for deploying",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/snootclub/post-receive.git"
-  },
-  "keywords": [
-    "git",
-    "hook",
-    "post-receive",
-    "deploy"
-  ],
-  "author": "chee <chee@snoot.club>",
-  "license": "GPL-3.0+",
-  "bugs": {
-    "url": "https://github.com/snootclub/post-receive/issues"
-  },
-  "homepage": "https://github.com/snootclub/post-receive#readme",
-  "dependencies": {
-    "execa": "^1.0.0",
-    "fs-extra": "^7.0.1",
-    "get-stream": "^4.1.0",
-    "yargs": "^12.0.5"
-  }
+	"name": "@snootclub/post-receive",
+	"version": "0.0.0",
+	"description": "a post receive hook for deploying",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/snootclub/post-receive.git"
+	},
+	"keywords": [
+		"git",
+		"hook",
+		"post-receive",
+		"deploy"
+	],
+	"author": "chee <chee@snoot.club>",
+	"license": "GPL-3.0+",
+	"bugs": {
+		"url": "https://github.com/snootclub/post-receive/issues"
+	},
+	"homepage": "https://github.com/snootclub/post-receive#readme",
+	"dependencies": {
+		"execa": "^1.0.0",
+		"fs-extra": "^7.0.1",
+		"get-stream": "^4.1.0",
+		"yargs": "^12.0.5"
+	}
 }
