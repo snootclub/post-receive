@@ -39,6 +39,8 @@ void async function postーreceive () {
 		return console.log(`not going to make ${brank} live. only ${argv.brank} is made live.`)
 	}
 
+	console.log(`received new snoot content on ${brank} ! going to deploy, install, build at ${argv.deploymentDirectory}`)
+
 	// cool, we have new code in the live branch !!
 	if (!await fs.pathExists(argv.deploymentDirectory)) {
 		console.warn(`warn: deploy directory "${argv.deploymentDirectory}" didn't exist. making it`)
