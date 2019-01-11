@@ -26,7 +26,7 @@ let {
 	}
 })
 
-void async function postーreceive () {
+void async function postｰreceive () {
 	let input = await getStream(process.stdin)
 
 	// post-receive gets called with `${previousRevisionHash} ${newRevisionHash} ${ref}`
