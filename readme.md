@@ -1,1 +1,1 @@
-Any further development on snoot.club will happen on https://git.snoot.club/snootclub/snoot.club
+Any further development on post-receive will happen on https://git.snoot.club/snootclub/post-receive
